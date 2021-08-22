@@ -1,3 +1,4 @@
+import time
 import hashlib
 from random import randint
 
@@ -17,6 +18,7 @@ SALT_TABLE = [
     '8a8631b96f394283b65c8acc7b118ef6',
     '9730e9e2521d42829fcce6c47ee6e714',
     '0062ddbfd9994cdea21bcfbe8822469b',
+    '-',
     'af10e55f740549e293a9d8793094557e',
     '325e13e4d0b6424a9041ce9a6e2a0936',
     '9fb2c2e3d05d4ad8855dd057111a0372',
@@ -104,13 +106,20 @@ SALT_TABLE = [
 ]
 
 
+def get_sign_config(contId: str, appVersion: str = '2500090310'):
+    tm = f'{time.time() * 1000 - 1000 * 1000:.0f}'
+    md5string = hashlib.new('md5', f'{tm}{contId}{appVersion[:8]}'.encode('utf-8')).hexdigest()
+    return tm, url_sign(md5string)
+
+
 def url_sign(md5string: str):
     ''' 原算法两次随机数合并为一次 所以这里限定了下范围 '''
     salt = f'{randint(10000000, 99999999)}'
-    text = f'{md5string}{SALT_TABLE[int(salt[6:]) % 100 - 1]}migu{salt[:4]}'
+    text = f'{md5string}{SALT_TABLE[int(salt[6:]) % 100]}migu{salt[:4]}'
     sign = hashlib.new('md5', text.encode('utf-8')).hexdigest()
     return [salt, sign]
 
 
 if __name__ == '__main__':
-    print(url_sign('a42002edf5fdf989cb63a07327eb804c'))
+    print(get_sign_config('714725402'))
+    # print(url_sign('a42002edf5fdf989cb63a07327eb804c'))
