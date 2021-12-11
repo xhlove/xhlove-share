@@ -1,0 +1,20 @@
+{
+  "name": "dashjs",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "main": "xstreamdl_parser.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jsdom": "^13.2.0"
+  },
+  "dependencies": {
+    "codem-isoboxer": "0.3.6",
+    "path-browserify": "^1.0.1"
+  }
+}

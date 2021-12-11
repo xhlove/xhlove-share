@@ -3,3 +3,7 @@ iq_bbts
 .vscode
 抓包
 物料
+dash.js-development
+node_modules
+dashjs/src
+dashjs/externals
