@@ -1,0 +1,18 @@
+{
+    "name": "xhlove jshook",
+    "version": "1.0",
+    "description": "xhlove jshook",
+    "manifest_version": 2,
+    "icons": {
+        "16": "/icon.png",
+        "48": "/icon.png",
+        "128": "/icon.png"
+    },
+    "content_scripts": [{
+        "matches": ["<all_urls>"],
+        "js": ["hook_http_resp.js"],
+        "all_frames": true,
+        "permissions": ["tabs"],
+        "run_at": "document_start"
+    }]
+}
