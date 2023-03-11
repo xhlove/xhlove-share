@@ -1,0 +1,194 @@
+{
+    "permit_questionnaire": 1,
+    "validUrl2_backup": "",
+    "teaser_time": "0",
+    "hlsLevel": "web",
+    "fullmp4": "",
+    "setting_type": 0,
+    "timeoutflow": "false",
+    "disable_host": "",
+    "validUrl2": "https://2019.exueshi.com/polyvvalidate",
+    "preload": "true",
+    "outflow": "false",
+    "enable_host": "polyv.net,polyv.cn,plvideo.cn,plvideo.net,",
+    "weburl": "重庆易学仕教育科技有限公司",
+    "provider": "9E2AA7C025800AFAD008BCB20DD80E03413A3520",
+    "playerList": [],
+    "previewDuration": 180,
+    "adMatter": [],
+    "hls302": "",
+    "audio_fp": 0,
+    "protect_mode": 0,
+    "hlsDrmVersion": 11,
+    "validUrl": "",
+    "validUrl_backup": "",
+    "currentLine": "ab",
+    "player": {
+        "subtitles": [
+            {
+                "fontBold": "Y",
+                "fontColor": "#FFFFFF",
+                "fontItalics": "N",
+                "fontSize": 20,
+                "fontStyle": "Microsoft YaHei",
+                "outlineColor": "#262626",
+                "outlineWidth": 1,
+                "position": "",
+                "saveSubtitles": "N",
+                "spacing": 0.5,
+                "style": "single",
+                "vertical": 5
+            },
+            {
+                "fontBold": "Y",
+                "fontColor": "#FFFFFF",
+                "fontItalics": "N",
+                "fontSize": 20,
+                "fontStyle": "Microsoft YaHei",
+                "outlineColor": "#262626",
+                "outlineWidth": 1,
+                "position": "top",
+                "saveSubtitles": "N",
+                "spacing": 0.5,
+                "style": "double",
+                "vertical": 6
+            },
+            {
+                "fontBold": "Y",
+                "fontColor": "#FFFFFF",
+                "fontItalics": "N",
+                "fontSize": 16,
+                "fontStyle": "Microsoft YaHei",
+                "outlineColor": "#262626",
+                "outlineWidth": 1,
+                "position": "bottom",
+                "saveSubtitles": "N",
+                "spacing": 0.5,
+                "style": "double",
+                "vertical": 3
+            }
+        ],
+        "logo_location": "#",
+        "bottomSubtitles": "",
+        "subtitlesDoubleEnabled": "N",
+        "logo_show": 0,
+        "skinid": "skin_os",
+        "zColor": "#ffffff",
+        "logoloca": 2,
+        "tail_time": "0",
+        "saveSubtitles": "N",
+        "teaser_show": 0,
+        "rightMenu": [
+            {
+                "rightUrl": "https://www.exueshi.com",
+                "rightName": "易学仕在线"
+            }
+        ],
+        "pColor": "#669900",
+        "teaser_time": "0",
+        "subtitlesDoubleDefault": "N",
+        "topSubtitles": "",
+        "nav_alpha": 100,
+        "logo_diaph": 100,
+        "languageSetting": 1,
+        "skincolor": "#333333",
+        "tail_show": 0,
+        "subtitlesEnabled": "Y",
+        "logo_url": ""
+    },
+    "match_srt": [],
+    "my_br": 2,
+    "playauth": "",
+    "appLevel": "native",
+    "interactive_video": "false",
+    "tsfilesize": [
+        129501376,
+        299793232
+    ],
+    "convertHls": 0,
+    "tail_show": 0,
+    "hlsIndex2": "https://ab-mts.videocc.net/d06ae002cb/2/d06ae002cb4a0bed78fb912c874fdbb2.m3u8",
+    "cdn_types": "ab,ws,kw",
+    "first_image_b": "https://img.videocc.net/uimage/d/d06ae002cb/2/d06ae002cb4a0bed78fb912c874fdbb2_0_b.jpg",
+    "out_br": "400,1133",
+    "source_filesize": 271986588,
+    "akeysharing": 0,
+    "status": 61,
+    "hash": "",
+    "hlsIndex": "https://hls.videocc.net/d06ae002cb/2/d06ae002cb4a0bed78fb912c874fdbb2.m3u8",
+    "autoplay": "0",
+    "df_num": 2,
+    "filesize": [
+        115317074,
+        273312541
+    ],
+    "first_image": "https://img.videocc.net/uimage/d/d06ae002cb/2/d06ae002cb4a0bed78fb912c874fdbb2_0_b.jpg",
+    "ratio": 1.7777777910232544,
+    "flv": [
+        "https://plvod01.videocc.net/d06ae002cb/2/d06ae002cb4a0bed78fb912c874fdbb2_1.plv",
+        "https://plvod01.videocc.net/d06ae002cb/2/d06ae002cb4a0bed78fb912c874fdbb2_2.plv"
+    ],
+    "codesharing": 0,
+    "hlsIndex_backup": "https://hls2.videocc.net/d06ae002cb/2/d06ae002cb4a0bed78fb912c874fdbb2.m3u8",
+    "tsCdn": "ab-mts.videocc.net",
+    "videolink": "https://hls.videocc.net/d06ae002cb/2/d06ae002cb4a0bed78fb912c874fdbb2.m3u8",
+    "keepsource": "",
+    "mp4": [
+        "https://mpv.videocc.net/d06ae002cb/2/d06ae002cb4a0bed78fb912c874fdbb2_1.mp4",
+        "https://mpv.videocc.net/d06ae002cb/2/d06ae002cb4a0bed78fb912c874fdbb2_2.mp4"
+    ],
+    "playerError": {
+        "code": "0",
+        "tips": {
+            "en": "",
+            "zh_CN": ""
+        }
+    },
+    "webLevel": "video",
+    "forbidClients": "",
+    "resolution": [
+        "640x360",
+        "960x540"
+    ],
+    "usepassword": "false",
+    "packageUrl": [
+        "https://ab-dl.videocc.net/d06ae002cb/0/15994636875960/ts_d06ae002cb4a0bed78fb912c874fdbb2_1.zip",
+        "https://ab-dl.videocc.net/d06ae002cb/0/15994636875960/ts_d06ae002cb4a0bed78fb912c874fdbb2_2.zip"
+    ],
+    "title": "第一节 总论",
+    "tailRecommendOpt": 5,
+    "domainSwitch": 1,
+    "h5pcmp4": [
+        "https://dpv.videocc.net/d06ae002cb/2/d06ae002cb4a0bed78fb912c874fdbb2_1.mp4",
+        "https://dpv.videocc.net/d06ae002cb/2/d06ae002cb4a0bed78fb912c874fdbb2_2.mp4"
+    ],
+    "hls_backup": [
+        "https://hls2.videocc.net/d06ae002cb/2/d06ae002cb4a0bed78fb912c874fdbb2_1.m3u8",
+        "https://hls2.videocc.net/d06ae002cb/2/d06ae002cb4a0bed78fb912c874fdbb2_2.m3u8"
+    ],
+    "cataid": 1593742244324,
+    "videokeyframes": [],
+    "teaser_url": "",
+    "swf_link": "https://player.polyv.net/videos/d06ae002cb4a0bed78fb912c874fdbb2_d.swf",
+    "tsCdns": "ab-mts.videocc.net,ws-mts.videocc.net,kw-mts.videocc.net",
+    "seed": 1,
+    "tail_time": "0",
+    "teaser_show": 0,
+    "reportFreq": 10,
+    "hls": [
+        "https://hls.videocc.net/d06ae002cb/2/d06ae002cb4a0bed78fb912c874fdbb2_1.m3u8",
+        "https://hls.videocc.net/d06ae002cb/2/d06ae002cb4a0bed78fb912c874fdbb2_2.m3u8"
+    ],
+    "hls2": [
+        "https://ab-mts.videocc.net/d06ae002cb/2/d06ae002cb4a0bed78fb912c874fdbb2_1.m3u8",
+        "https://ab-mts.videocc.net/d06ae002cb/2/d06ae002cb4a0bed78fb912c874fdbb2_2.m3u8"
+    ],
+    "progressImage": "https://img.videocc.net/uimage/d/d06ae002cb/2/d06ae002cb4a0bed78fb912c874fdbb2_progressImage.jpg",
+    "seed_const": 142,
+    "duration": "1719.0",
+    "httpdns-ttl": 600,
+    "userMsgSeiEnabled": "N",
+    "tail_url": "",
+    "catatree": "1,1591840981587,1593742216708,1593742244324",
+    "timestamp": 1612174355000
+}
